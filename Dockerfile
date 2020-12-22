@@ -2,7 +2,7 @@
 #
 # Dockerfile for postsrsd
 #
-# need init: false
+# need init: true
 # random secret file will be generated inside volume ${POSTSRSD_DIR}
 
 FROM lisnaz/alpine:latest
