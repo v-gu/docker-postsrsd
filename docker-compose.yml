@@ -3,7 +3,7 @@
 version: '2.4'
 
 services:
-  postfix:
+  postsrsd:
     image: lisnaz/postsrsd:latest
     init: true
     ports:
